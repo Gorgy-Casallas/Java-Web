@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletDepartamentosController</servlet-name>
+  	<display-name>ServletDepartamentosController</display-name>
+  	<description></description>
+  	<servlet-class>controlador.ServletDepartamentosController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletCiudadController</servlet-name>
+  	<display-name>ServletCiudadController</display-name>
+  	<description></description>
+  	<servlet-class>controlador.ServletCiudadController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletEmpleadoController</servlet-name>
+  	<display-name>ServletEmpleadoController</display-name>
+  	<description></description>
+  	<servlet-class>controlador.ServletEmpleadoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletDepartamentosController</servlet-name>
+  	<url-pattern>/ServletDepartamentosController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletCiudadController</servlet-name>
+  	<url-pattern>/ServletCiudadController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletEmpleadoController</servlet-name>
+  	<url-pattern>/ServletEmpleadoController</url-pattern>
+  </servlet-mapping>
+</web-app>
